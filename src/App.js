@@ -1,23 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import CardList from './components/CardList';
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="flex flex-col h-screen max-h-screen bg-gray-900">
+      
+      <div className = "flex-grow overflow-y-auto bg-page text-default-text">  
+        <CardList/>
+      </div>
     </div>
   );
 }
