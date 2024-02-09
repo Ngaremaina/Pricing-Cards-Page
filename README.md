@@ -1,4 +1,4 @@
-# Pricing Page README
+# Pricing Page
 
 ## Description
 This project is a pricing page built using React framework. It displays subscription plans with features and pricing options both annually and monthly.
@@ -45,4 +45,4 @@ This project is licensed under the MIT License - see the [LICENSE](MIT LICENSE) 
 Special thanks to the creators of React and other libraries used in this project.
 
 ## Author
-Owen Maina - owenmaina.netlify.app - mainaowen1997@gmail.com
+Owen Maina - https://owenmaina.netlify.app - mainaowen1997@gmail.com
